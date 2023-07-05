@@ -713,7 +713,7 @@ void OBCameraNode::calcAndPublishStaticTransform() {
                   optical_frame_id_[COLOR]);
   publishStaticTF(tf_timestamp, zero_trans, quaternion_optical, frame_id_[DEPTH],
                   optical_frame_id_[DEPTH]);
-  publishStaticTF(tf_timestamp, zero_trans, zero_rot, camera_link_frame_id_, frame_id_[DEPTH]);
+  // publishStaticTF(tf_timestamp, zero_trans, zero_rot, camera_link_frame_id_, frame_id_[DEPTH]);
 }
 
 void OBCameraNode::publishDynamicTransforms() {

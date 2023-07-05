@@ -8,18 +8,18 @@
     <arg name="vendor_id" default="0x2bc5"/>
     <arg name="product_id" default=""/>
     <arg name="enable_point_cloud" default="true"/>
-    <arg name="enable_colored_point_cloud" default="true"/>
+    <arg name="enable_colored_point_cloud" default="false"/>
     <arg name="connection_delay" default="100"/>
     <arg name="color_width" default="640"/>
     <arg name="color_height" default="480"/>
-    <arg name="color_fps" default="30"/>
+    <arg name="color_fps" default="15"/>
     <arg name="enable_color" default="true"/>
     <arg name="color_format" default="MJPG"/>
     <arg name="flip_color" default="false"/>
     <arg name="enable_color_auto_exposure" default="true"/>
-    <arg name="depth_width" default="640"/>
-    <arg name="depth_height" default="400"/>
-    <arg name="depth_fps" default="30"/>
+    <arg name="depth_width" default="320"/>
+    <arg name="depth_height" default="200"/>
+    <arg name="depth_fps" default="15"/>
     <arg name="enable_depth" default="true"/>
     <arg name="depth_format" default="Y14"/>
     <arg name="flip_depth" default="false"/>
@@ -27,12 +27,12 @@
     <arg name="ir_width" default="640"/>
     <arg name="ir_height" default="400"/>
     <arg name="ir_fps" default="30"/>
-    <arg name="enable_ir" default="true"/>
+    <arg name="enable_ir" default="false"/>
     <arg name="ir_format" default="Y8"/>
     <arg name="flip_ir" default="false"/>
     <arg name="enable_ir_auto_exposure" default="true"/>
     <arg name="publish_tf" default="true"/>
-    <arg name="tf_publish_rate" default="10.0"/>
+    <arg name="tf_publish_rate" default="0"/>
     <arg name="ir_info_uri" default=""/>
     <arg name="color_info_uri" default=""/>
     <arg name="log_level" default="none"/>
